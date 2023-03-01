@@ -449,6 +449,8 @@ mark {
 .section-title p {
   font-size: 18px;
   margin: 0;
+  padding-bottom: 40px;
+  padding-top: 30px;
 }
 @media (max-width: 1200px) {
   .section-title p {
@@ -579,7 +581,7 @@ mark {
   border-radius: 10px;
   overflow: hidden;
   position: absolute;
-  top: 0;
+  top: 100px;
   bottom: 0;
   left: 0;
   width: 60vw;
@@ -865,7 +867,18 @@ mark {
   padding-left: 15px;
 }
 
-/*my skilld end
+.feature-content p {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+
+.feature-box img {
+  width: 64px;
+  height: 64px;
+}
+
+/*my skilled end
 ---------------------------*/
 
 /* About me
@@ -983,6 +996,16 @@ mark {
   font-weight: 400;
 }
 
+.portfolio-info-in p {
+  text-align: center;
+  color: #5e6472;
+  line-height: 22px;
+  font-size: 17px;
+}
+.portfolio-info-in p:hover {
+  color: #5e6472;
+}
+
 .portfolio-info-in h6 {
   text-align: center;
   font-size: 17px;
@@ -1030,51 +1053,6 @@ mark {
 .portfolio-img-3 img {
   width: 400px;
 }
-/*
-.portfolio-box .portfolio-info-in h5 {
-  color: #fff;
-  font-weight: 600;
-  font-size: 26px;
-}
-.portfolio-box .portfolio-info-in span {
-  font-weight: 500;
-  color: #fff;
-}
-.portfolio-box .gallery-link {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50px;
-  height: 50px;
-  background: #f9564f;
-}
-
-.portfolio-box .gallery-link span:after,
-.portfolio-box .gallery-link span:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  background: #fff;
-}
-.portfolio-box .gallery-link span:after {
-  width: 16px;
-  height: 2px;
-}
-.portfolio-box .gallery-link span:before {
-  width: 2px;
-  height: 16px;
-}
-.portfolio-box:hover {
-  box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
-  top: -5px;
-}
-.portfolio-box:hover .portfolio-info {
-  opacity: 1;
-}*/
 
 /* Contact US
 ---------------------------*/
@@ -1086,40 +1064,27 @@ mark {
   justify-content: center;
 }
 
-.contactus-form {
-  background: #fff;
-  padding: 30px;
-  box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
-}
-.contactus-form h6 {
-  font-weight: 600;
-  color: #00171f;
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-.contactus-form input {
-  height: calc(2em + 0.75rem + 2px);
-}
-.contactus-form .form-control {
-  font-size: 14px;
-  box-shadow: none !important;
-}
-.contactus-form .form-control:focus {
-  border-color: #00171f;
-}
-.contactus-form .btn-bar {
-  padding-top: 15px;
-}
-
-.feature-content p {
+.btn {
+  width: 180px;
+  height: 55px;
   font-size: 20px;
-  color: #000;
-  text-align: center;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 2px solid #f9564f;
+  color: #00171f;
+  border-radius: 30px;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
 }
 
-.feature-box img {
-  width: 64px;
-  height: 64px;
+.btn:hover {
+  background-color: #f9564f;
+  color: #fff;
 }
 
 /* Skill Bar
@@ -1182,3 +1147,4 @@ mark {
 }
 
 /*# sourceMappingURL=style.css.map */
+
